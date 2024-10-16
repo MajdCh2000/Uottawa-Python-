@@ -1,7 +1,7 @@
 # Course: IT1 1120
 # Assignment number: 6
 # Chantiri, Majd
-# Student number: 300217475
+
 
 class Rectangle:
     "Class that represents a rectangle in the place"
