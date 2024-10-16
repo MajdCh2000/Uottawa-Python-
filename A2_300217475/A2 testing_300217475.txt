@@ -1,0 +1,150 @@
+[QTS 1]
+
+repeat("ho", 3, ",")
+'ho,ho,ho,'
+>>> 
+>>>
+
+[QTS 2] 
+>>> points(0, 0, 1, 1)
+the slope is: 1.0  and the distance is: 1.4142135623730951
+>>> points(0, 0, 0, 1)
+the slope is infinity and the distance is: 1.0
+>>> 
+>>>
+
+[QTS 3] 
+>>> rps("R","S")
+-1
+>>> rps("R","P")
+1
+>>> rps("P","R")
+-1
+>>> rps("P","S")
+1
+>>> rps("S","P")
+-1
+>>> rps("S","R")
+1
+>>> rps("R","R")
+0
+>>> 
+>>>
+
+[QTS 4] 
+>>> leap(2008)
+True
+>>> leap(1900)
+False
+>>> leap(2000)
+True
+>>> 
+>>> 
+
+[QTS 5]
+>>> month_apart(6,14,9,21)
+True
+>>> month_apart(4,5,5,15)
+True
+>>> month_apart(4,15,5,15)
+True
+>>> month_apart(4,16,5,15)
+False
+>>> month_apart(6,14,6,8)
+False
+>>> 
+>>>
+
+[QTS 6] 
+>>> allTheSame(1,1,1)
+True
+>>> allTheSame("Majd","Majd","Majd")
+True
+>>> allTheSame("Majd","M","Majd")
+False
+>>> allDifferent(1,2,3)
+True
+>>> allDifferent("Majd","Majd","M")
+False
+>>> allDifferent("M","Ma","Maj")
+True
+>>> sorted(1,2,3)
+True
+>>> sorted(10,2,3)
+False
+>>> sorted("x","y","z")
+True
+>>> 
+>>> 
+
+[QTS 7]
+>>> letter2number("A+")
+4.3
+>>> letter2number("A-")
+3.7
+>>> letter2number("D")
+1
+>>> letter2number("F")
+0
+>>> 
+>>>
+
+[QTS 8] 
+>>> is_nneg_f("2.15")
+True
+>>> is_nneg_f("2.")
+True
+>>> is_nneg_f(".15")
+True
+>>> is_nneg_f("215")
+True
+>>> is_nneg_f("-215")
+False
+>>> is_nneg_f("1e10")
+False
+>>> 
+>>>
+ 
+[QTS 9]
+>>> min_enclosing_rectangle(1,1,1)
+(0, 0)
+>>> min_enclosing_rectangle(4.5,10,2)
+(5.5, -2.5)
+>>> min_enclosing_rectangle(-1,10,2)
+>>> min_enclosing_rectangle(500,1000,2000)
+(500, 1500)
+>>> 
+>>> 
+
+[QTS 10]
+>>> l2lo(7.5)
+(7, 8.0)
+>>> l2lo(9.25)
+(9, 4.0)
+>>> 
+>>> 
+
+[QTS 11]
+>>> vote_percentage("yes yes yes yes yes abstained abstained yes yes yes yes")
+1.0
+>>> vote_percentage("yes,yes, no, yes, no, yes, abstained, yes yes no")
+0.6666666666666667
+>>> 
+>>> 
+
+[QTS 12]
+>>> vote()
+Enter the yes no abstained votes one by one and the press enter: yes yes yes yes yes abstained abstained yes yes yes yes
+Proposal passes unanimously
+>>> vote()
+Enter the yes no abstained votes one by one and the press enter: no no no no yes abstained
+Proposal FAILS
+>>> 
+>>> 
+
+[QTS 13]
+>>> count_even_digits(14326859,8)
+4
+>>> count_even_digits(113,3)
+0
+>>> 
