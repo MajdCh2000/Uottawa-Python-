@@ -1,7 +1,7 @@
 # Course: IT1 1120
 # Assignment number: 6
 # Chantiri, Majd
-# Student number: 300217475
+
 
 def overlap(set1,list1):
     #set1={0,19,8,9,12,13,14,15}
