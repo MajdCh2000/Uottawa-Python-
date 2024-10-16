@@ -1,7 +1,6 @@
 # Course: IT1 1120
 # Assignment number: 1
 # Chantiri, Majd
-# Student number: 300217475
 
 
 ########################
