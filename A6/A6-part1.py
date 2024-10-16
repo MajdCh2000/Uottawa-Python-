@@ -1,7 +1,7 @@
 # Course: IT1 1120
 # Assignment number: 6
 # Chantiri, Majd
-# Student number: 300217475
+
 
 def largest_34(a):
     '''{this function does about 140 000 operations}
