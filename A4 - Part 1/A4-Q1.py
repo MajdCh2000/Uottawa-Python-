@@ -1,7 +1,7 @@
 # Course: IT1 1120
 # Assignment number: 4
 # Chantiri, Majd
-# Student number: 300217475
+
 
 def number_divisible(l,n):
     '''(list, number)=>number
